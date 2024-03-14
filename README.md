@@ -39,7 +39,7 @@ curl --location 'http://127.0.0.1:5000/login' \
 3. **Remove Background** - *POST*
 ``` cUrl
 curl --location 'http://127.0.0.1:5000/remove_background' \
---form 'imaege=@"your-sample-image-path"' \
+--form 'image=@"your-sample-image-path"' \
 --form 'apiKey="your-api-key"'
 ```
 
