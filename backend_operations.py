@@ -17,7 +17,7 @@ def signup_function(email, password):
 
 def login_function(email, password):
     user = get_user_by_email(email)
-    if not user or user.check_password(password):
+    if user is None or not user.check_password(password):
         return'Invalid Email ID or password', 400
 
     return jsonify({'api_key': user.apiKey, 'available_api_calls': user.availableApiCalls})
