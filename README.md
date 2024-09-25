@@ -3,7 +3,7 @@ This API provides a comprehensive set of endpoints tailored to handle user authe
 
 ## Required packages
 ```python
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## API Endpoints
